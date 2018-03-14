@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $(".images").hide();
+    $(".col-sm-12").hide();
     renderButtons();
 })
 
@@ -42,8 +42,8 @@ $(document).on('click', '.btn-emotion', function(){
 function displayEmotion(emotion) {
     
     //build URL//
-    $(".images").empty();
-    $(".images").show();
+    $(".col-sm-12").empty();
+    $(".col-sm-12").show();
     var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + emotion + "&api_key=PDzJlwrJZijAydXeheW9iarlbIj8Enuv&limit=10"
 
     //make call to giphy//
