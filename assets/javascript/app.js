@@ -44,7 +44,7 @@ function displayEmotion(emotion) {
     //build URL//
     $(".images").empty();
     $(".images").show();
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + emotion + "&api_key=PDzJlwrJZijAydXeheW9iarlbIj8Enuv&limit=10"
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + emotion + "&api_key=PDzJlwrJZijAydXeheW9iarlbIj8Enuv&limit=10"
 
     //make call to giphy//
     $.ajax({
