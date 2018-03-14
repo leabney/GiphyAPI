@@ -1,0 +1,74 @@
+.background {
+    height: 150px;
+    width: 100%;
+    background-image: url("../images/giphy.gif");
+}
+
+.jumbotron {
+    height: 100px;
+    width: 50%;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    color: #600060;
+    font-family: 'Bowlby One SC', cursive;
+    text-align: center;
+    padding-top: 15px;
+}
+
+h1 {
+    -webkit-text-stroke: 1.5px #C01070;
+}
+
+.form-inline {
+    padding: 10px 0px;
+    float: right;
+    background-color: lightgoldenrodyellow;
+
+}
+
+.buttons {
+    overflow: auto;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #f471b9;
+}
+
+.btn {
+    color: white;
+    background-color:#C01070;
+    border-radius: 20px;
+    border: 2px solid  white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#addButton {
+    background-color: #600060;
+}
+
+.btn:hover {
+    border: 2px solid #600060;
+    background-color: #C01070;
+}
+
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+    background-color: #600060;
+ }
+
+ .thumbnail {
+     clear: both;
+ }
+
+.caption {
+    color: #600060;
+    position: relative;
+    z-index: -1;
+}
+
+.thumbnail {
+    float: left;
+}
